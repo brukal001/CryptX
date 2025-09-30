@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class Api {
-  static const base = 'https://cryptx-gj55.onrender.com/api'; // emulator localhost
+  static const base = 'https://cryptx-gj55.onrender.com/api/'; // emulator localhost
   String? access;
 
   Map<String, String> _authJson() {
