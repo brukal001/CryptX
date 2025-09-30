@@ -138,7 +138,7 @@ REST_FRAMEWORK = {
 
 # (dev) Let Django generate keys/debug; you'll disable DEBUG in prod
 DEBUG = True
-ALLOWED_HOSTS = ["10.0.2.2", "127.0.0.1" ]
+ALLOWED_HOSTS = ["10.0.2.2", "127.0.0.1",".onrender.com" ]
 CORS_ALLOW_ALL_ORIGINS = True
 
 
